@@ -10,12 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23b44de7f96d39e4d88d3606f1fa4a83, type: 3}
-  m_Name: Warrior
+  m_Name: Creeper
   m_EditorClassIdentifier: Assembly-CSharp::MinionData
-  minionName: Warrior
+  minionName: Creeper
+  minionType: 4
   manaCost: 1
-  health: 3
-  attack: 1
+  health: 1
+  attack: 3
+  movementPattern: 1
   moveRange: 1
+  attackPattern: 6
+  attackRange: 1
+  movementCostsMana: 0
+  diesWhenAttacking: 1
   color: {r: 0, g: 0, b: 1, a: 1}
   prefab: {fileID: 0}
